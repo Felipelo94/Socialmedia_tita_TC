@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Feed.css";
 import MessageSender from "./MessageSender";
-import StoryReel from "./StoryReel";
 import { get } from "../services/HTTPService";
 import env from "../config/env";
 import Post from "./Post";

@@ -1,9 +1,6 @@
 import { Avatar } from "@mui/material";
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import "./MessageSender.css";
-import VideocamIcon from "@mui/icons-material/Videocam";
-import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
-import InsertEmoticonIcon from "@mui/icons-material/InsertEmoticon";
 import { UserContext } from "../UserContext";
 
 function MessageSender() {
