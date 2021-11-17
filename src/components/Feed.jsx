@@ -44,8 +44,7 @@ function Feed() {
   };
 
   const handleSelectOnChange = (selectedTag) => {
-    setCurrentTag(selectedTag);
-    console.log(selectedTag);
+    setCurrentTag(selectedTag);    
     getPostsByTag(selectedTag.value);
   };
 
