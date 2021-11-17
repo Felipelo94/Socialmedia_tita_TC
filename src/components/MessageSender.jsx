@@ -13,7 +13,7 @@ const {user} = useContext(UserContext)
         <form>
           <input
             className="messageSender__input"
-            placeholder={`${user.name}, ¿qué quieres decir hoy? `}
+            placeholder={`${user.name}, ¿What's on your mind today? `}
           />
 
           <button type="submit">Hidden submit</button>

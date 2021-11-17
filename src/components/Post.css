@@ -16,7 +16,7 @@
 }
 
 .post__avatar {
-    margin-right: 10px;
+    margin-right: 2px;
 }
 
 .post__topInfo {
@@ -94,4 +94,5 @@
 
 .post__comments{
     margin-left: auto;
+    cursor: pointer;
 }

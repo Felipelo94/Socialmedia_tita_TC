@@ -8,7 +8,6 @@ function UserDetails({user}) {
         <div className ="card-body">
           <img src ={picture} alt ="Imagen De la tarjeta" className="card-image"/>
           <h2 className ="card-title" >{firstName} {lastName}</h2>
-          <p className ="card-description">{'User'}</p>
         </div>
     </div>
     )
