@@ -18,7 +18,7 @@ function Login() {
         appId={env.fbAppId}    
         fields="name,email,picture"
         callback={responseFacebook}
-        textButton= {'LOGIN CON FACEBOOK'}
+        textButton= {'LOGIN WITH FACEBOOK'}
       />
     </div>
   );

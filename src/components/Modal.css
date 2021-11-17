@@ -4,9 +4,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #FFF;
-    padding: 50px;
+    padding: 30px;
     border-radius: 1rem;
     z-index: 1000;
+    width: 50%;
 }
 
 .overlay{
@@ -17,4 +18,14 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
     z-index: 1000
+}
+
+.modal__bottom{
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.modal__closeButton{
+    margin-left: auto;
 }

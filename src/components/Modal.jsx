@@ -11,8 +11,8 @@ function Modal({children, isOpen, onClose}) {
         <div className='overlay'/>
         <div className = 'modal'>
             {children}
-        <div>
-            <AppButton label = {'Close'} onClick = {onClose}/>
+        <div className = 'modal__bottom'>
+            <span className = 'modal__closeButton'><AppButton label = {'Close'} onClick = {onClose}/></span>
         </div>
         </div>
         

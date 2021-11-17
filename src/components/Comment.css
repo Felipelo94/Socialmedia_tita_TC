@@ -1,0 +1,17 @@
+.comment{
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.comment__name{
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: gray;
+    font-weight: bold;
+    
+}
+
+.comment__avatar {
+    margin-right: 0.7rem;
+}
